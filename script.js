@@ -8,6 +8,14 @@ let arr = [
 
 function PrintStudentswithMap() {
   //Write your code here , just console.log
+   let newArr = arr.map(myFunction);
+
+document.getElementById("marks").innerHTML = newArr;
+
+function myFunction(marks) {
+  if(marks>50)
+  {printstudent= console.log}
+  return printstudent;
 }
 
 function PrintStudentsbyForEach() {
